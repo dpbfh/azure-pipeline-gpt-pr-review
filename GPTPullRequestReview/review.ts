@@ -80,7 +80,10 @@ async function reviewFile(fileName: string) {
           - Non changed code should not be reviewed
           - If there's no bugs, write 'No feedback'.
           - Use bullet points if you have multiple comments.
-          
+          - Review the PR for code quality, including cleanliness, clarity, and simplicity.
+          - Consider whether the solution is designed appropriately. Does it fit into the current system architecture? Does it align with the codebase's style, patterns, and practices?
+          - Ensure any new features, changes, or bug fixes are adequately documented.
+          - Check for Security Issues
           Patch of the Pull Request to review:
           ${patch}
           `;
